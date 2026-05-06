@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#2D6A4F" />
+    <meta name="author" content="Mistral Pizza" />
+    <meta
+      name="keywords"
+      content="Mistral Pizza, Sveti Vlas, Bulgaria, pizza, chebureki, Black Sea, Світі Влас, Свети Влас"
+    />
+    <meta
+      name="description"
+      lang="en"
+      content="Fresh pizza by the sea in Sveti Vlas, Bulgaria. Mistral Pizza — stone-baked pizzas, chebureks, and seaside comfort food on ul. Bor 2."
+    />
+
+    <link rel="canonical" href="https://mistral-pizza.bg/" />
+    <link rel="alternate" hreflang="uk" href="https://mistral-pizza.bg/#lang=uk" />
+    <link rel="alternate" hreflang="en" href="https://mistral-pizza.bg/#lang=en" />
+    <link rel="alternate" hreflang="bg" href="https://mistral-pizza.bg/#lang=bg" />
+    <link rel="alternate" hreflang="x-default" href="https://mistral-pizza.bg/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mistral Pizza" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+    <meta property="og:locale:alternate" content="bg_BG" />
+    <meta
+      property="og:title"
+      content="Mistral Pizza — seaside pizzeria in Sveti Vlas"
+    />
+    <meta
+      property="og:description"
+      content="Fresh from the oven by the Black Sea. Stone-baked pizzas, chebureks, and salads. ul. Bor 2, Sveti Vlas."
+    />
+    <meta property="og:url" content="https://mistral-pizza.bg/" />
+    <meta property="og:image" content="https://mistral-pizza.bg/social-share.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mistral Pizza — Sveti Vlas" />
+    <meta name="twitter:description" content="Pizza, chebureks &amp; sea breeze. Open Tue–Sun · 12:00–20:00." />
+
+    <title>Mistral Pizza</title>
+
+    <script type="application/ld+json" id="structured-data">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Mistral Pizza",
+        "description": "Seaside pizzeria in Sveti Vlas, Bulgaria — pizza, chebureks, pancakes, salads.",
+        "url": "https://mistral-pizza.bg/",
+        "telephone": "+359884264643",
+        "servesCuisine": ["Pizza", "Ukrainian", "Mediterranean"],
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ul. Bor 2",
+          "addressLocality": "Sveti Vlas",
+          "addressRegion": "Nesebar",
+          "postalCode": "8256",
+          "addressCountry": "BG"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "43.2154",
+          "longitude": "27.7612"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "12:00",
+            "closes": "20:00"
+          }
+        ]
+      }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              mistral: {
+                green: "#2D6A4F",
+                mint: "#EBF5EC",
+                herb: "#74C69D",
+                pine: "#1B4332",
+                charcoal: "#121416",
+                ink: "#07090c",
+                walnut: "#2c1e14",
+                cocoa: "#3d2a20",
+                latte: "#F7F3EC",
+                wood: "#cfc0ad",
+              },
+            },
+            fontFamily: {
+              display: ["Georgia", "Times New Roman", "serif"],
+              sans: [
+                "Montserrat",
+                "system-ui",
+                "-apple-system",
+                "Segoe UI",
+                "Roboto",
+                "sans-serif",
+              ],
+            },
+            transitionDuration: { 400: "400ms" },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="min-h-screen bg-mistral-latte font-sans text-mistral-charcoal antialiased [--header-h:4.25rem]"
+  >
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-mistral-green focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white focus:outline-none focus:ring-2 focus:ring-mistral-herb focus:ring-offset-2 focus:ring-offset-mistral-latte"
+      data-i18n="a11y.skipToContent"
+    ></a>
+
+    <header
+      class="fixed inset-x-0 top-0 z-50 border-b border-mistral-wood/70 bg-white/92 backdrop-blur-md shadow-sm shadow-mistral-ink/5"
+      role="banner"
+    >
+      <div
+        class="mx-auto flex h-[var(--header-h)] max-w-6xl items-center justify-between gap-3 px-4 sm:gap-4 sm:px-6 lg:px-8"
+      >
+        <a
+          href="#home"
+          class="group flex shrink-0 items-center gap-2 rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-mistral-green focus-visible:ring-offset-2 focus-visible:ring-offset-mistral-latte sm:gap-3"
+        >
+          <span
+            class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-mistral-green to-mistral-pine text-base font-bold text-white shadow-md shadow-mistral-ink/20 ring-1 ring-mistral-walnut/25 transition group-hover:from-mistral-pine group-hover:to-mistral-ink sm:h-10 sm:w-10 sm:text-lg"
+            aria-hidden="true"
+            >M</span
+          >
+          <span class="flex min-w-0 flex-col leading-tight">
+            <span class="font-display text-base font-semibold tracking-tight text-mistral-ink sm:text-lg sm:text-xl">
+              Mistral Pizza
+            </span>
+            <span
+              class="hidden text-xs font-medium text-mistral-cocoa lg:block"
+              data-i18n="header.tagline"
+            ></span>
+          </span>
+        </a>
+
+        <nav
+          class="hidden items-center gap-1 text-sm font-semibold text-mistral-walnut md:flex md:gap-2"
+          aria-label=""
+          data-i18n-site-nav="a11y.siteSections"
+        >
+          <a
+            href="#home"
+            class="rounded-lg px-3 py-2 outline-none transition-colors duration-400 ease-out hover:bg-mistral-mint/70 hover:text-mistral-green focus-visible:ring-2 focus-visible:ring-mistral-green focus-visible:ring-offset-2 focus-visible:ring-offset-mistral-latte"
+            data-i18n="nav.home"
+          ></a>
+          <a
+            href="#menu"
+            class="rounded-lg px-3 py-2 outline-none transition-colors duration-400 ease-out hover:bg-mistral-mint/70 hover:text-mistral-green focus-visible:ring-2 focus-visible:ring-mistral-green focus-visible:ring-offset-2 focus-visible:ring-offset-mistral-latte"
+            data-i18n="nav.menu"
+          ></a>
+          <a
+            href="#contact"
+            class="rounded-lg px-3 py-2 outline-none transition-colors duration-400 ease-out hover:bg-mistral-mint/70 hover:text-mistral-green focus-visible:ring-2 focus-visible:ring-mistral-green focus-visible:ring-offset-2 focus-visible:ring-offset-mistral-latte"
+            data-i18n="nav.contact"
+          ></a>
+        </nav>
+
+        <div class="flex flex-1 items-center justify-end gap-2 sm:gap-3">
+          <nav class="flex shrink-0 items-center gap-2" data-i18n-nav-label="a11y.langNavLabel">
+            <span
+              class="mr-0 hidden text-xs font-semibold uppercase tracking-wide text-mistral-cocoa/80 xl:inline"
+            >
+              <span data-i18n="header.langLabelShort"></span>
+            </span>
+            <div
+              class="flex rounded-full border border-mistral-wood bg-mistral-latte/80 p-1 shadow-inner shadow-mistral-ink/5"
+              role="group"
+              data-i18n-aria="a11y.langToggleGroup"
+            >
+              <button
+                type="button"
+                class="lang-btn rounded-full px-2.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-mistral-walnut outline-none transition duration-400 ease-out hover:text-mistral-green focus-visible:ring-2 focus-visible:ring-mistral-green focus-visible:ring-offset-2 sm:px-4 sm:text-sm"
+                data-lang="uk"
+                aria-pressed="false"
+              >
+                UA
+              </button>
+              <button
+                type="button"
+                class="lang-btn rounded-full px-2.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-mistral-walnut outline-none transition duration-400 ease-out hover:text-mistral-green focus-visible:ring-2 focus-visible:ring-mistral-green focus-visible:ring-offset-2 sm:px-4 sm:text-sm"
+                data-lang="en"
+                aria-pressed="false"
+              >
+                EN
+              </button>
+              <button
+                type="button"
+                class="lang-btn rounded-full px-2.5 py-1.5 text-xs font-semibold uppercase tracking-wide text-mistral-walnut outline-none transition duration-400 ease-out hover:text-mistral-green focus-visible:ring-2 focus-visible:ring-mistral-green focus-visible:ring-offset-2 sm:px-4 sm:text-sm"
+                data-lang="bg"
+                aria-pressed="false"
+              >
+                BG
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="pt-[var(--header-h)]">
+      <section
+        id="home"
+        class="relative overflow-hidden bg-gradient-to-b from-mistral-mint/90 via-white to-mistral-latte"
+        aria-labelledby="hero-title"
+      >
+        <div
+          class="pointer-events-none absolute -right-24 top-1/2 h-72 w-72 -translate-y-1/2 rounded-full bg-mistral-herb/25 blur-3xl sm:right-0 sm:h-96 sm:w-96"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="pointer-events-none absolute -left-32 top-24 h-56 w-56 rounded-full bg-mistral-walnut/10 blur-3xl sm:left-0"
+          aria-hidden="true"
+        ></div>
+
+        <div
+          class="relative mx-auto grid max-w-6xl scroll-mt-[calc(var(--header-h)+12px)] gap-12 px-4 py-16 sm:px-6 sm:py-24 lg:grid-cols-12 lg:gap-10 lg:px-8 lg:py-28"
+        >
+          <div class="flex flex-col justify-center lg:col-span-7">
+            <div id="hero-status-slot" aria-live="polite" class="mb-6"></div>
+            <p
+              class="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-mistral-walnut/20 bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-mistral-green shadow-sm shadow-mistral-ink/5"
+              data-i18n="hero.kicker"
+            ></p>
+            <h1
+              id="hero-title"
+              class="font-display text-4xl font-bold leading-[1.08] tracking-tight text-mistral-ink sm:text-5xl lg:text-6xl"
+              data-i18n="hero.title"
+            ></h1>
+            <p
+              class="mt-6 max-w-xl text-base leading-relaxed text-mistral-cocoa sm:text-lg"
+              data-i18n="hero.subtitle"
+            ></p>
+            <div class="mt-10 flex flex-wrap items-center gap-4">
+              <a
+                href="#menu"
+                class="btn-primary inline-flex items-center justify-center rounded-lg bg-mistral-green px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-mistral-ink/15 outline-none transition-colors duration-400 ease-out hover:bg-mistral-pine hover:shadow-lg focus-visible:ring-2 focus-visible:ring-mistral-herb focus-visible:ring-offset-2 focus-visible:ring-offset-mistral-latte"
+                data-i18n="hero.ctaPrimary"
+              ></a>
+              <a
+                href="#contact"
+                class="inline-flex items-center justify-center rounded-lg border-2 border-mistral-walnut bg-white/60 px-6 py-3 text-sm font-semibold text-mistral-walnut outline-none backdrop-blur-sm transition-colors duration-400 ease-out hover:border-mistral-cocoa hover:bg-mistral-wood/50 focus-visible:ring-2 focus-visible:ring-mistral-walnut focus-visible:ring-offset-2 focus-visible:ring-offset-mistral-latte"
+                data-i18n="hero.ctaSecondary"
+              ></a>
+            </div>
+            <p class="mt-10 text-sm font-medium text-mistral-cocoa/90" data-i18n="hero.note"></p>
+          </div>
+
+          <div class="relative lg:col-span-5">
+            <div
+              class="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl bg-gradient-to-b from-mistral-wood/80 to-mistral-latte ring-1 ring-mistral-walnut/20 shadow-xl shadow-mistral-ink/15 transition-shadow duration-500 ease-out hover:shadow-[0_24px_60px_-20px_rgba(7,9,12,0.35)] sm:max-w-lg lg:mx-0 lg:max-w-none"
+            >
+              <div
+                class="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(116,198,157,0.28),transparent_55%)]"
+              ></div>
+              <div
+                class="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-mistral-ink/10 to-transparent"
+                aria-hidden="true"
+              ></div>
+              <div
+                class="relative flex h-full flex-col items-center justify-center gap-4 p-8 text-center"
+              >
+                <div
+                  class="flex h-28 w-28 items-center justify-center rounded-2xl bg-white text-5xl shadow-lg shadow-mistral-ink/10 ring-1 ring-mistral-walnut/15 transition-transform duration-500 ease-out hover:rotate-[-3deg] hover:scale-105 sm:h-36 sm:w-36 sm:text-6xl"
+                  aria-hidden="true"
+                >
+                  &#127829;
+                </div>
+                <p
+                  class="max-w-xs font-display text-xl font-semibold text-mistral-ink sm:text-2xl"
+                  data-i18n="hero.visualCaption"
+                ></p>
+                <p
+                  class="max-w-xs text-sm leading-relaxed text-mistral-cocoa"
+                  data-i18n="hero.visualSupport"
+                ></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="menu"
+        class="scroll-mt-[calc(var(--header-h)+8px)] border-t border-mistral-wood bg-gradient-to-b from-mistral-mint/35 via-white to-mistral-latte py-16 sm:py-24"
+        aria-labelledby="menu-heading"
+      >
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <header class="max-w-2xl">
+            <p
+              class="text-xs font-semibold uppercase tracking-[0.2em] text-mistral-green"
+              data-i18n="menu.eyebrow"
+            ></p>
+            <h2
+              id="menu-heading"
+              class="mt-3 font-display text-3xl font-bold tracking-tight text-mistral-ink sm:text-4xl"
+              data-i18n="menu.title"
+            ></h2>
+            <p
+              class="mt-4 text-base leading-relaxed text-mistral-cocoa sm:text-lg"
+              data-i18n="menu.intro"
+            ></p>
+          </header>
+
+          <div
+            id="menu-filters"
+            class="menu-filters mt-10 flex snap-x snap-mandatory gap-2 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] sm:flex-wrap sm:overflow-visible [&::-webkit-scrollbar]:hidden"
+            role="toolbar"
+          ></div>
+
+          <div
+            id="menu-grid"
+            class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3"
+            role="list"
+          ></div>
+        </div>
+      </section>
+
+      <footer
+        id="contact"
+        class="scroll-mt-[calc(var(--header-h)+8px)] border-t border-mistral-wood bg-mistral-charcoal pb-10 pt-14 text-white sm:pb-12 sm:pt-20"
+        role="contentinfo"
+      >
+        <div class="mx-auto grid max-w-6xl gap-12 px-4 sm:gap-14 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 id="footer-heading" class="font-display text-2xl font-bold text-white sm:text-3xl" data-i18n="footer.title"></h2>
+            <p class="mt-3 max-w-md text-sm leading-relaxed text-mistral-mint/90 sm:text-base" data-i18n="footer.intro"></p>
+            <div id="footer-status-slot" class="mt-6" aria-live="polite"></div>
+            <p class="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-mistral-herb" data-i18n="footer.hoursEyebrow"></p>
+            <p class="mt-2 font-medium text-white/95" data-i18n="footer.hoursSummary"></p>
+            <address class="mt-6 not-italic text-sm leading-relaxed text-mistral-mint/95 sm:text-base">
+              <strong class="mb-2 block font-semibold text-white" data-i18n="footer.addressLabel"></strong>
+              <span data-i18n="footer.addressStreet"></span
+              ><br />
+              <span data-i18n="footer.addressCity"></span>
+            </address>
+            <div class="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:gap-6">
+              <a
+                class="footer-tel-link inline-flex min-h-[44px] items-center justify-center rounded-xl bg-mistral-green px-5 py-3 text-base font-semibold text-white outline-none shadow-lg shadow-black/25 transition-colors duration-400 ease-out hover:bg-mistral-herb focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-mistral-charcoal"
+                href="tel:+359884264643"
+              >
+                <span class="tabular-nums" data-i18n="footer.phoneDisplay"></span>
+              </a>
+              <a
+                class="footer-ext-link inline-flex min-h-[44px] items-center justify-center rounded-xl border border-white/35 px-5 py-3 text-sm font-semibold text-white outline-none transition-colors duration-400 ease-out hover:border-mistral-herb hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-mistral-herb focus-visible:ring-offset-2 focus-visible:ring-offset-mistral-charcoal"
+                href="https://www.google.com/maps/dir/?api=1&amp;destination=43.2154%2C27.7612"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="footer.openDirections"
+              ></a>
+            </div>
+          </div>
+
+          <div class="relative min-h-[220px] w-full overflow-hidden rounded-3xl shadow-2xl shadow-black/50 ring-1 ring-white/10 sm:min-h-[320px]">
+            <iframe
+              id="map-iframe"
+              class="loading-lazy-frame absolute inset-0 h-full w-full border-0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Google Map"
+              src="https://www.google.com/maps?q=43.2154,27.7612&amp;hl=en&amp;z=17&amp;output=embed"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="mx-auto mt-12 max-w-6xl px-4 sm:mt-14 sm:px-6 lg:px-8">
+          <p class="border-t border-white/10 pt-8 text-center text-xs text-white/55" data-i18n="footer.copyright"></p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
