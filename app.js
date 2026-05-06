@@ -1,4 +1,5 @@
 /**
+
  * Mistral Pizza — i18n + меню (рендер у app.js)
  */
 
